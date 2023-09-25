@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 
-
 const Card = ({ card }) => {
 
     const { id, cardimage, category, title, primarycolor, cardbg, categorybg } = card || {}
-
+    
     return (
         <div>
             <Link to={`/cards/${id}`}>

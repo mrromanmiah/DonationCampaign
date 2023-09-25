@@ -15,11 +15,11 @@ const Card = ({ card }) => {
                             <p className="rounded px-3 py-1" style={{ color: primarycolor, backgroundColor: categorybg, display: 'inline-block' }}>{category}</p>
                         </div>
 
-                        <h2 className="card-title" style={{ color: primarycolor }}>{title}</h2>
+                        <h2 className="card-title text-lg" style={{ color: primarycolor }}>{title}</h2>
                     </div>
                 </div>
             </Link>
-        </div >
+        </div>
     );
 };
 

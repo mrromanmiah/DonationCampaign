@@ -10,7 +10,7 @@ import Layout from './layout/Layout';
 import Home from './pages/Home/Home';
 import Donation from './pages/Donation/Donation';
 import Statistics from './pages/Statistics/Statistics';
-import ErrorPage from './pages/ErrorPage/Errorpage';
+import ErrorPage from './pages/ErrorPage/ErrorPage';
 import Details from './pages/Details/Details';
 
 const router = createBrowserRouter([

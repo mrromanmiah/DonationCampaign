@@ -3,17 +3,14 @@
 const Banner = () => {
     return (
         <div>
-            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/CBWVSkD/Banner.png)' }}>
-                <div className="hero-overlay bg-opacity-95"></div>
-                <div className="hero-content text-center text-neutral-content">
-                    <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
-                    </div>
+            <div className="h-[77vh] flex flex-col justify-center items-center text-center">
+                <h1 className="text-[#0B0B0B] text-5xl font-bold mb-10">I Grow By Helping People In Need</h1>
+                <div className="flex items-center justify-center">
+                    <input className="px-4 py-2 border-2 rounded-l-lg w-96" type="search" name="" id="" placeholder="Search here...." />
+                    <button className="bg-[#FF444A] py-2 px-7 border-2 border-[#FF444A] rounded-r-lg text-white font-semibold text-base hover:font-bold">Search</button>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

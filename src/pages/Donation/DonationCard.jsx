@@ -1,7 +1,7 @@
 
 
 const DonationCard = ({ card }) => {
-    const { id, listimage, category, title, primarycolor, cardbg, categorybg, amount } = card || {}
+    const { listimage, category, title, primarycolor, cardbg, categorybg, amount } = card || {}
     return (
         <div>
             <div className="flex rounded-lg overflow-hidden" style={{ backgroundColor: cardbg }}>

@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
-
 const Navbar = () => {
     return (
         <div>
-            <nav className="flex items-center justify-between py-8 px-16">
+            <nav className="lg:flex md:flex space-y-4 lg:space-y-0 md:space-y-0 items-center justify-between py-8 px-16">
                 <Logo></Logo>
                 <ul className="flex items-center gap-12 text-lg">
                     <li>
@@ -40,7 +39,6 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
-
         </div>
     );
 };

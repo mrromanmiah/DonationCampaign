@@ -1,6 +1,5 @@
 import StatisticsPie from "./StatisticsPie";
 
-
 const Statistics = () => {
     return (
         <div>

@@ -20,13 +20,13 @@ const Banner = ({ handleSearch }) => {
     return (
         <div>
             <div className="h-[77vh] flex flex-col justify-center items-center text-center">
-                <h1 className="text-[#0B0B0B] text-5xl font-bold mb-10">
+                <h1 className="text-[#0B0B0B] lg:text-5xl md:text-3xl text-lg font-bold mb-10">
                     I Grow By Helping People In Need
                 </h1>
                 <div className="flex items-center justify-center">
                     <input
-                        className="px-4 py-2 border-2 rounded-l-lg w-96"
-                        type="search"
+                        className="px-4 py-2 border-2 rounded-l-lg lg:w-96"
+                        type="text"
                         name=""
                         id=""
                         placeholder="Search here...."

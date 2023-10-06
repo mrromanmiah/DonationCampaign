@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Cards from "../../components/Cards/Cards";
 import Banner from "../../components/Header/Banner/Banner";
+import Navbar from "../../components/Header/Navbar/Navbar";
 
 const Home = () => {
     const cards = useLoaderData();
@@ -20,7 +22,13 @@ const Home = () => {
     return (
         <div>
             <div className="bg-[url('https://i.ibb.co/4NB4zB2/Banner-10.png')] bg-no-repeat bg-cover bg-center">
-                <Banner handleSearch={handleSearch}></Banner>
+                <div>
+                    <Navbar></Navbar>
+                </div>
+
+                <div className="">
+                    <Banner handleSearch={handleSearch}></Banner>
+                </div>
             </div>
             <Cards cards={filteredCards}></Cards>
         </div>

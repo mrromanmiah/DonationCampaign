@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import DetailsCard from "./DetailsCard";
+import Navbar from "../../components/Header/Navbar/Navbar";
 
 const Details = () => {
     const [details, setDetails] = useState()
@@ -14,6 +15,7 @@ const Details = () => {
 
     return (
         <div>
+            <Navbar></Navbar>
             <DetailsCard card={details}></DetailsCard>
         </div>
     );

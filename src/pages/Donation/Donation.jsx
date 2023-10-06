@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import DonationCard from './DonationCard';
+import Navbar from '../../components/Header/Navbar/Navbar';
 
 const Donation = () => {
     const [donation, setDonation] = useState([]);
@@ -23,6 +24,7 @@ const Donation = () => {
 
     return (
         <div>
+            <Navbar></Navbar>
             {notFound ? (
                 <h1 className="h-[76vh] flex justify-center items-center lg:text-6xl md:text-3xl text-xl font-extrabold text-[#FF444A]">
                     {notFound}
